@@ -1,0 +1,60 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+p, h2, h3 {
+  color: #ffebae; }
+
+.wp-block-cgb-block-tour-block {
+  background: #131313;
+  border: none;
+  color: #ffebae;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 1rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-bottom: 1rem; }
+
+.tour__image {
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 185px;
+  -ms-flex: 1;
+      flex: 1; }
+
+.tour__content {
+  margin-left: 1rem; }
+  .tour__content p {
+    margin-bottom: 5px; }
+
+.tour__url a {
+  background: #f45731;
+  color: #131313;
+  border: 1px solid #f45731;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 5px;
+  margin-top: 5px; }
+
+.tour__body a {
+  color: #f45731;
+  text-decoration: underline; }
+
+@media only screen and (max-width: 786px) {
+  .wp-block-cgb-block-tour-block {
+    -ms-flex-direction: column;
+        flex-direction: column; } }
